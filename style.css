@@ -1,0 +1,55 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5rem;
+}
+.card{
+    background-color: white;
+    width: 22rem ;
+    margin: 10vh auto;
+    border-radius: 1rem;
+}
+.mobile-img{
+    width: 100%;
+    padding: 0;
+    border-radius: 1rem 1rem 0 0;
+}
+.card-content{
+    padding: 2rem;
+    padding-top: 0.5rem;
+}
+.add-to-cart a{
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+.add-to-cart a:hover{
+    background-color: hsl(158, 42%, 18%);
+}
+h1{
+    font-family: 'Fraunces', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+.prices{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.prices h1{
+    color: hsl(158, 36%, 37%);
+}
+p{
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+}
+#perfume{
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
