@@ -14,9 +14,10 @@
   <header></header>
   <main>
     <div class="card">
-      <picture>
-        <source media="(min-width: 376px)" srcset="./images/image-product-desktop.jpg" class="desktop-img">
-        <img src="./images/image-product-mobile.jpg" alt="product img" class="mobile-img">
+      <picture class="product-img">
+        <source media="(max-width: 600px)" srcset="./images/image-product-mobile.jpg">
+        <source media="(min-width: 601px)" srcset="./images/image-product-desktop.jpg">
+        <img src="./images/image-product-desktop.jpg" alt="product img">
       </picture>
       <div class="card-content">
         <p id="perfume">Perfume</p>
@@ -28,7 +29,10 @@
             <p><del>$169.99</del></p>
           </div>
           <div class="add-to-cart">
-            <a href="">Add to Cart</a>
+            <a href="">
+              <img src="./images/icon-cart.svg" alt="cart icon" class="icon">
+              Add to Cart
+            </a>
           </div>
       </div>
       </div>
